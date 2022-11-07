@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+
+
+
+/*    N A V    */
+
+#top-tag {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    background-color: white;
+}
+
+#phone-icon {
+    height: 15px;
+    margin: 10px;
+}
+
+#phone-num {
+    padding: 0;
+    margin: 0px 20px 0px 0px;
+}
+
+#top-tag div {
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    height: 18px;
+    margin: 0px 5px;
+}
+
+.social-media:hover {
+    cursor: pointer;
+}
+
+#address-cont div {
+    display: flex;
+}
+
+#address-cont img{
+    height: 30px;
+    width: 30px;
+}
+
+/*  ------ */
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px;
+}
+
+.nav-section {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+nav div a {
+    color: rgba(0, 0, 0, .8);
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+
+/* ------------- */
+
+/* ---- F E A T U R E D  ----*/ 
+
+#featured-text {
+    background: url(/pics/pexels-fwstudio-131634.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 120px;
+}
+
+#featured-text h1, #featured-text h2 {
+    margin: 0;
+}
+
+/* -------------- */
+
+/*--- A B O U T ----- */
+
+#about {
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+#about div {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#about div h3 {
+    text-align: center;
+}
+
+/* -------------- */
+
+/*--- S E R V I C E S ----- */
+
+#services {
+    background: rgba(0, 243, 81, 1);
+}
+
+#services-grid {
+    display: flex;
+    padding: 0px 50px;
+}
+
+.service {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 243, 81, 1);
+}
+
+.service h3 {
+    text-align: center;
+    margin: 5px;
+}
+
+/* -------------- */
+
+/* ----- BLOG ------ */
+
+#blog {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin: 0 100px;
+}
+
+#blog-cont {
+    width: 50%;
+}
+
+.blog-title {
+    margin: 0;
+}
+
+#post-list {
+    text-align: center;
+}
+
+#post-list ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px 20px;
+    background: rgba(0, 0, 0, .2);
+}
+
+#post-list ul li:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+/* ----------- */
+
+/*---- C O N T A C T ---- */
+
+#contact {
+    text-align: center;
+    margin: 50px auto;
+}
+
+form div {
+    margin: 20px auto;
+}
+
+form input {
+    margin-left: 10px;
+}
+
+textarea:hover, form button {
+    cursor: pointer;
+}
+
+/*  ----- F O O T E R ------*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
+
+#reset {
+    padding: 15px 10px 5px 10px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 1s;
+    background: gray;
+    margin: 20px;
+    border: 2px solid rgba(0, 0, 0, .2);
+}
+
+#reset div {
+    height: 10px;
+    width: 10px;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    transform: rotate(45deg);
+}
+
+#reset:hover {
+    cursor: pointer;
+}
